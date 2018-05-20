@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Smarter than a 5th grader</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
+  
+</head>
+
+<body>
+  <h1>Are you smarter than a 5th grader?</h1>
+
+    <input type="button" id = "name_button" name="student" value="Click to see who is playing next!" onclick= "random();">
+  <div id = "student_name">
+      <p id = "play"</p>
+  </div>
+
+  <form id = "quiz" name="quiz">
+    <p>What color are oranges?</p>
+    <input type="radio" id ="mc" name="q1" value="green"> green<br>
+    <input type="radio" id ="mc" name="q1" value="red"> red<br>
+    <input type="radio" id ="mc" name="q1" value="orange"> orange<br>
+    <input type="radio" id ="mc" name="q1" value="yellow"> yellow<br>
+
+    <p>What color is the water?</p>
+    <input type="radio" id ="mc" name="q2" value="white"> white<br>
+    <input type="radio" id ="mc" name="q2" value="clear"> clear<br>
+    <input type="radio" id ="mc" name="q2" value="blue"> blue<br>
+    <input type="radio" id ="mc" name="q2" value="all the above"> all the above<br>
+
+
+    <input type="button" id ="button" value="Final answer" onclick = "check();">
+
+  </form>
+
+  <div id = "after_submit">
+    <p id = "message"></p>
+    <p id ="number_correct"></p>
+  </div>
+
+
+</body>
+
+</html>
